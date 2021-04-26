@@ -10,7 +10,7 @@ Here are steps to run:
   3) After downloading all required packages, just run the programm
   4) If you are using terminal, go to folder containing python file and type command "python3 filename.py" and hit enter. 
   5) Server will run on port 8080, to access, goto browser and type localhost:8080
-  6) Following routes available to access
+  6) Following routes available to access:
     1) "/addPayerEntry" - **POST** request type - expect one entry at a time - sample url request is **localhost:8080/addPayerEntry?pointEntry={ "payer": "DANNON", "points": 300, "timestamp": "2020-10-31T10:00:00Z" }**
     2) "/spendPoints" - **GET** request type - expect dictionary of points and its value - sample url is **localhost:8080/spendPoints?spendPoints={"points":500}**
     3) "/getPointTable" - **GET** request type - expect no argument - sample url is **localhost:8080/getPointTable**
